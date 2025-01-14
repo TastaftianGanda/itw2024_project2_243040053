@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Comic Sans MS";
+}
+
+body{
+    background-color: #a4a083;
+    font-family: Comic;
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: #a4a083;
+}
+section{
+    min-height: 100vh;
+    padding: 100px 5% 100px;
+}
+/* Home */
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home img{
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    border: 3px solid #000000;
+    box-shadow: 0 0 0 5px #424242;
+    position: relative;
+}
+.home-text{
+    color: #E2F1E7;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* About */
+.about-band p{
+    color: #E2F1E7;
+    text-align: center;
+    border: 3px solid #424242;
+    box-shadow: #424242;
+    background-color: #424242;
+    font-size: 30px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+
+/* footer */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: #dadbdc;
+  }
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 0;
+    text-align: center;
+  }
+.footer ul li a {
+    color: black;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+  }
+.footer ul li a a:hover {
+    border-bottom: 3px solid black;
+  }
